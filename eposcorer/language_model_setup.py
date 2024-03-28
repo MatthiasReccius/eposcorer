@@ -2,7 +2,7 @@ from typing import List, Optional
 import transformers
 
 
-class TransformersModel:
+class TransformersModel():
     """Provides a wrapper for a pre-trained language model from transformer.co.
 
     Currently, the program expects the attribute attention_mask, so it
